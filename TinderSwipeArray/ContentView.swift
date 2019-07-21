@@ -37,7 +37,7 @@ struct ContentView_Previews : PreviewProvider {
 #endif
 
 struct NewCard : View {
-    var id = UUID()
+
     enum DragState {
         case inactive
         case pressing
